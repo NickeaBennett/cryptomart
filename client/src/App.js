@@ -21,7 +21,8 @@ const App = () => (
                             <Route exact path="/" element={<Home />}></Route>
                             <Route exact path="/cryptocurrencies" element={<Cryptocurrency />}></Route>
                             <Route exact path="/exchanges" element={<Exchanges />}></Route>
-                            <Route exact path="/crypto/:coidId" element={<CoinDetails />}></Route> // dynamically render each coin detail: coinId
+                            <Route exact path="/crypto/:coidId" element={<CoinDetails />}></Route> 
+                            {/* dynamically render each coin detail coinId stored in variable*/}
                             <Route exact path="/favorites" element={<Favorites />}></Route>
                             <Route exact path="/news" element={<News />}></Route>
                         </Routes>
