@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cryptocurrency = () => {
   return (
-    <div>cCryptocurrency</div>
+    <div>Cryptocurrency</div>
   )
 }
 
