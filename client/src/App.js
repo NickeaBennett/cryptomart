@@ -13,7 +13,7 @@ const App = () => (
             <div className="navbar">
                 <Navbar />
             </div>
-            <div className="main-content">
+            <div className="main">
                 {/* Layout component for routing from antd */}
                 <Layout>
                     <div className='routes'>
@@ -27,7 +27,7 @@ const App = () => (
                         </Routes>
                     </div>
                 </Layout>
-                {/* <div className="footer">
+                <div className="footer">
                     <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
                         <Link to="/">
                         CryptoMart 
@@ -42,7 +42,7 @@ const App = () => (
                         <Link to="favorites">Favorites</Link>
                         <Link to="/news">News</Link>
                     </Space> 
-                </div> */} 
+                </div> 
             </div>
         </div>
 );
