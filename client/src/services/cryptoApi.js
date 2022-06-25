@@ -6,8 +6,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query';
 
 const createApiHeaders = {
     // Coin headers
-    'X-RapidAPI-Key': '586442e325mshf74f712bf9c91fdp184977jsnaf37f0c91999',
-    'X-RapidAPI-Host': 'coinranking1.p.rapidapi.com',
+    
 
 }
 
@@ -44,8 +43,7 @@ export const cryptoAPI = cryptoAPI({
 //     offset: '0'
 //   },
 //   headers: {
-//     'X-RapidAPI-Key': '586442e325mshf74f712bf9c91fdp184977jsnaf37f0c91999',
-//     'X-RapidAPI-Host': 'coinranking1.p.rapidapi.com'
+//    
 //   }
 // };
 
