@@ -1,11 +1,21 @@
-import React from 'react'
+import React from 'react';
+import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
+import { Layout, Typography, Space } from 'antd';
 
 const App = () => {
-  return (
-    <div>
-        <h1>Hello World</h1>
-    </div>
-  )
+    return (
+        <div className='app'>
+            <div className="navbar">
+
+            </div>
+            <div className="main-content">
+
+            </div>
+            <div className="footer">
+
+            </div>
+        </div>
+    );
 }
 
-export default App
+export default App;
